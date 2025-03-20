@@ -13,7 +13,10 @@ I do a lot of demos and I regularly rebuild and reinstall systems using the same
 
 Just run the following command from your shell and then use `ssh` as per normal.
 
-`alias ssh=<path to sssh folder>/sssh`
+```
+git clone https://github.com/samktan/sssh.git
+alias ssh=~/sssh/sssh
+```
 
 # Caveats
 
