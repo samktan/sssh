@@ -14,3 +14,9 @@ I do a lot of demos and I regularly rebuild and reinstall systems using the same
 Just run the following command from your shell and then use `ssh` as per normal.
 
 `alias ssh=<path to sssh folder>/sssh`
+
+# Caveats
+
+Note that `ssh` does not return a specific error code for the host key verification failed condition; instead it returns a 255 code for _any_ error including if you provided the wrong public/private key pairs or if the connection terminated unexpectedly. So this script cannot determine what may have caused a connection to fail, do not automatically delete the host key until you have confirmed exactly what caused the connection error.
+
+/END
