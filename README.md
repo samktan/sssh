@@ -1,5 +1,5 @@
 # sssh
-Sam's SSH Wrapper
+Sam's SSH Wrapper by sam.k.tan@oracle.com
 
 # Overview
 
